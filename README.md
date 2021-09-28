@@ -1,2 +1,2 @@
 # everyshift-backend
-Backend of EveryShift
+Backend of EveryShift for deployment
