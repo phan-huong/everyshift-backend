@@ -21,7 +21,7 @@
     "uuidv4": "^6.2.10"
   },
   "devDependencies": {
-    "mongoose": "^5.13.5",
+    "mongoose": "^6.0.8",
     "nodemon": "^2.0.9"
   }
 }
