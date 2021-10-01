@@ -1,0 +1,98 @@
+.headerUserContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+/* .userNavBtn img {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+  } */
+
+.userNavBtn {
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  -ms-transition: -ms-transform .5s ease-in-out;
+}
+
+.navbar_icon {
+  font-size: 1.6rem;
+  color: white;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: transform .5s ease-in-out;
+}
+.navbar_rotate {
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  transition: transform .5s ease-in-out;
+}
+
+/* .navbar_icon:hover {
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+} */
+
+.headerUsername {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.headerUsername a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.headerUsername a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.headerDate {
+  color: white;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.navFooterTitle {
+  color: white;
+}
+
+.navFooterTitle a {
+  text-decoration: none;
+  color: white;
+}
+
+.clockIcon {
+  font-size: 22px!important;
+  position: relative;
+  top: 3px;
+  left: -7px;
+}
+
+.main-navigation__header-nav {
+  display: none;
+}
+
+.navSideDrawer {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .main-navigation__menu-btn {
+    display: none;
+  }
+
+  .main-navigation__header-nav {
+    display: block;
+  }
+}

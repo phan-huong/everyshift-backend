@@ -67,7 +67,7 @@ const userSchema = new Schema({
     image: { 
         type: String, 
         required: false,
-        default: `http://${localhost.get_ip(localhost.device_type)}:3000/public/icons/user.png`
+        default: `https://${localhost.get_ip(localhost.device_type)}/public/icons/user.png`
     },
     entryDate: {
         type: Date,

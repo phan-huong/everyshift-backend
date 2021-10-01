@@ -1,0 +1,73 @@
+/*
+App Name: EveryShift
+Author: Phan Huong
+Author URI: https://phanhuong.com/
+Description: CSS Styling for EveryShift
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+01. GLOBAL
+
+RESPONSIVE WITH BOOTSTRAP
+    Screen < 1200px
+    Screen < 992px
+    Screen < 768px
+    Screen <= 576px
+    Screen <= 480px
+    Screen <= 320px
+*/
+
+/* 01. GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+html, body, h6, h5, h4, h3, h2, h1 {
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+body {
+  margin: 0;
+  /* background: #4d4d4d; */
+  /* background: #F2F2F2!important; */
+  background: white;
+}
+
+.background-dark {
+  background: #333333;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.page_wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  flex: 2;
+  overflow: auto;
+  margin: 0.5rem 0;
+  padding: 0;
+}

@@ -1,0 +1,18 @@
+.sideDrawerWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav_icon_btn {
+    border-radius: 10px;
+    margin: 1.5rem;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_icon_img {
+    font-size: 2rem;
+    margin-bottom: 0;
+}

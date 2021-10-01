@@ -1,0 +1,55 @@
+.mainFooter {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    background-color: white;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.26);
+    padding: 0px;
+    align-content: center;
+    border-top: 1px solid #4F4F4F;
+  }
+  
+.navIcon img {
+  height: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navIcon i {
+  font-size: 36px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  color: black;
+}
+
+.navIcon:hover i, .navIcon:active i {
+  color: white;
+}
+
+.navIcon {
+  text-align: center;
+  height: auto;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navIcon div {
+  text-align: center;
+  height: auto;
+}
+
+.navIcon:hover, .navIcon:active  {
+  background-color: #274B7D;
+}
+
+@media (min-width: 768px) {
+  /* .mainFooter {
+    justify-content: space-between;
+  } */
+}

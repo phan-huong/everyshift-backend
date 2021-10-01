@@ -1,0 +1,63 @@
+.size_full_screen {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.signinFormContainer {
+    /* padding-top: 30%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* color: #274B7D; */
+    color: #307EEA;
+}
+
+.signinFormContainer h4 {
+    padding-bottom: 1rem;
+}
+
+.signinFormContainer form div {
+    padding-bottom: 1rem;
+}
+
+.signInLink {
+    text-align: center;
+}
+
+.signInLink a {
+    font-style: italic;
+    padding-top: 0.75rem;
+    color: #307EEA;
+}
+
+.signInLink a:hover {
+    color: white;
+}
+
+.goBtn {
+    text-align: right;
+}
+
+.goBtn button {
+    border: solid 2px #307EEA;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #307EEA;
+    
+}
+
+.goBtn button:hover {
+    border: solid 2px white;
+    color: white;
+}
+
+.signinLogo {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}

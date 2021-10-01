@@ -1,0 +1,59 @@
+.userItem {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+  }
+  
+  .userItem a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    background: #E7E7E7;
+    /* background: #EB5757; */
+  }
+  
+  .userItem a:hover,
+  .userItem a:active {
+    /* background: #ffd900; */
+    background: #454545;
+  }
+  
+  .userContent {
+    padding: 0;
+  }
+  
+  .userImage {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+  
+  .userInfo {
+    flex-grow: 1;
+  }
+
+  .userInfo p {
+    margin: 0;
+    font-weight: normal;
+    color: black;
+  }
+
+  .userItem:hover p,
+  .userItem:active p,
+  .userItem:hover p,
+  .userItem:active p {
+    color: white;
+  }
+
+  .userInfoName {
+    font-size: 1.3rem;
+    font-style: bold;
+  }
+
+  .userPlace {
+    display: flex;
+    justify-content: space-between;
+  }

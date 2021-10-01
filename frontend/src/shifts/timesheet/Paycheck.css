@@ -1,0 +1,9 @@
+.wishlist_controller p {
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.pay_check {
+    text-align: center;
+    background-color: lightblue;
+    padding: 0.5rem;
+}

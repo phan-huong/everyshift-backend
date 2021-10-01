@@ -1,0 +1,66 @@
+.upcoming_shifts_wrapper {
+    margin-top: 2rem;
+}
+
+.upcoming_shifts_container {
+    margin-top: 2rem;
+}
+
+.upcoming_shifts_wrapper h5 {
+    margin-bottom: 0;
+}
+
+.upcoming_shift {
+    margin-top: 1rem;
+}
+
+.upcoming_shift_date {
+    background-color: #274B7D;
+    border-radius: 10px 10px 0 0;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+.upcoming_shift_info {
+    border: 1px solid #C8C8C8;
+    border-radius: 0 0 10px 0px;
+    padding: 1rem;
+}
+
+.upcoming_shift_info p {
+    margin-bottom: 0;
+}
+
+.no_upcoming_shifts {
+    text-align: center;
+}
+
+.no_upcoming_shifts_text {
+    border: 1px solid #C8C8C8;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+    color: #274B7D;
+}
+
+.no_upcoming_shifts_text p:last-child {
+    font-size: 0.9rem;
+    color: black;
+}
+
+.no_upcoming_shifts_text:hover {
+    background-color: #454545;
+    color: white;
+}
+
+.no_upcoming_shifts_text:hover p:last-child {
+    color: white;
+}
+
+.add_to_wishlist_btn {
+    margin-top: 2rem;
+}

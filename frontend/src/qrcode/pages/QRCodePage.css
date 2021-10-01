@@ -1,0 +1,32 @@
+.qrcode_page {
+    height: 100%;
+    overflow: hidden;
+}
+.qrcode_wrapper {
+    height: 100%;
+    display: grid;
+    padding: 0 2rem;
+    grid-template-rows: 3rem auto 3rem;
+}
+.qrcode_wrapper > .title_section {
+    font-size: 1.4rem;
+    align-self: start;
+    justify-self: center;
+}
+.qrcode_wrapper > .main_content {
+    height: 100%;
+    display: grid;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: center;
+    justify-items: center;
+}
+.qrcode_wrapper > .buttons_section {
+    padding-top: 0.5rem;
+    align-self: end;
+    justify-self: center;
+    text-align: center;
+}
+.qrcode_wrapper > .buttons_section > button {
+    width: 100%;
+}

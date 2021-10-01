@@ -1,0 +1,42 @@
+.daysoff_page {
+    height: 100%;
+    overflow: hidden;
+}
+.daysoff_wrapper {
+    height: 100%;
+    display: grid;
+    padding: 0 2rem;
+    grid-template-rows: 3rem auto 3rem;
+}
+.daysoff_wrapper > .title_section {
+    font-size: 1.4rem;
+    align-self: start;
+}
+.daysoff_wrapper > .main_content {
+    height: 100%;
+    /* display: grid; */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.daysoff_wrapper > .add_days_off_section {
+    padding-top: 0.5rem;
+    align-self: end;
+}
+.daysoff_wrapper > .add_days_off_section > button {
+    width: 100%;
+}
+.year_list > .year_item {
+    border-radius: 0.25rem;
+}
+.year_list > .year_item > .year_item_link {
+    border-radius: 0.25rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+.year_list > .year_item > .year_item_link > .title {
+    justify-self: start;
+}
+.year_list > .year_item > .year_item_link > .icon {
+    justify-self: end;
+}

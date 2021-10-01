@@ -1,0 +1,22 @@
+.shift_today_wrapper {
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.35);
+}
+
+.work_day {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    text-align: center;
+    align-items: center;
+}
+
+.work_day img {
+    max-width: 80%;
+    height: auto;
+}
+
+.work_day p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}

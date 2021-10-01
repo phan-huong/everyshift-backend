@@ -1,0 +1,27 @@
+#sideDrawer {
+    position: fixed;
+    left: -308px;
+    top: 56px;
+    bottom: 64px;
+    z-index: 100;
+    width: 300px;
+    background: #454545;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+    overflow-x: hidden;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+
+#sideDrawer a {
+    display: none;
+}
+
+.drawerOpen a {
+      display: block!important;
+      text-decoration: none;
+      color: white;
+  }
+
+.drawerOpen {
+      left: 0px!important;
+}

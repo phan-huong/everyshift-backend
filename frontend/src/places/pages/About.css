@@ -1,0 +1,29 @@
+.about_page {
+    height: 100%;
+    overflow: hidden;
+}
+.about_wrapper {
+    height: 100%;
+    display: grid;
+    padding: 0 2rem;
+    grid-template-rows: 3rem auto;
+}
+.about_wrapper > .title_section {
+    font-size: 1.4rem;
+    align-self: start;
+    justify-self: center;
+}
+.about_wrapper > .main_content {
+    height: 100%;
+    display: grid;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: center;
+    justify-items: center;
+}
+.about_wrapper > .main_content > .logo {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 0.1rem;
+}
